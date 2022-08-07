@@ -1,0 +1,107 @@
+body {
+    background: #fefefe;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+h1{
+	text-align: center;
+	font-size: 25px;
+	margin:5px;
+}
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+p{
+	text-align: center;
+	margin: 2%;
+	font-size: 6
+}
+a:hover {
+    border-bottom:solid;
+    border-color: #F39800;
+    border-width:3px;
+    color: #F39800;
+}
+
+a:active {
+    color: #F30000;
+    text-decoration: none;
+}
+
+select optgroup{
+    background:#000;
+    color:#fff;
+    font-style:normal;
+    font-weight:normal;
+    }
+select option{
+    background:#fff;
+    color:#000;
+    font-style:normal;
+    font-weight:normal;
+    }
+	
+#concept-top{
+	position: absolute;
+	top: 0%;
+	width: 99%;
+	height: 8.5%;
+}
+#conceptviz {
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    width: 99%;
+    height: 90%;
+}
+
+#concept-menu, #concept-list, #leaf-map, #concept-tweet{
+    position: absolute;
+}
+
+#concept-menu{
+    top: 0;
+    height: 10%;
+    width: 13%;
+}
+
+#concept-list{
+    top: 5%;
+    width: 14%;
+    height: 94%;
+}
+
+#leaf-map{
+    top: 0;
+    left: 14.5%;
+    height: 99%;
+    width: 66%
+}
+#concept-words{
+    top:0;
+    left:80%;
+    height: 99%;
+    width:20%;
+}
+
+#concept-tweet{
+    top:0px;
+    left: 81%;
+    height: 99%;
+    width: 18.5%;
+    overflow-y: scroll;
+    background-color: lightgrey;
+}
+
+#concept-list{ overflow: scroll; overflow-x: hidden; }
+#concept-list table{font-size: 10px;}
+#concept-list table th#term{width: 300px }
+#concept-list h2 {font-size: 14px; margin: 4px; text-align: left}
+
+#concept-words{ overflow: scroll; overflow-x: hidden; }
+#concept-words table{font-size: 14px;}
+#concept-words h2 {font-size: 14px; margin: 4px; text-align: left}
+
+
