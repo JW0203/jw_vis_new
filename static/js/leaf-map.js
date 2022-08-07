@@ -65,7 +65,7 @@ function drowmap() {
 	}
 		
 
-    d3.csv("static/data/plot_lw.csv", function (error, cities) {	
+    d3.csv("static/data/plot_pois_day15.csv", function (error, cities) {	
 
 
 		var group_info = click_data.group;
